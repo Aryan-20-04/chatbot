@@ -7,7 +7,6 @@ pattern=[
     (r'bye',['Goodbye','See you'])
 ]
 chatbot=Chat(pattern,reflections)
-print('Commands: Hello,Hi/How are you/bye/Weather/Jokes/News')
 def get_response(user_input):
     if user_input=='Weather' or user_input=='weather':
         return 'Click here for weather update: https://www.accuweather.com/en'
